@@ -16,9 +16,9 @@ def pageControl():
 
         if "Login" in page.title:
             username = page.find_element_by_name("username")
-            username.send_keys("nicholaix")
+            username.send_keys("USER")
             password = page.find_element_by_name("password")
-            password.send_keys("05354366879")
+            password.send_keys("PASSWORD")
             loginbutton = page.find_element_by_id("btn-login")
             loginbutton.click()
 
